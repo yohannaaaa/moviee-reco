@@ -15,7 +15,7 @@ import SignOut from './pages/Signout';
 import {Loginpage} from './pages/Loginpage';
 import {Details} from './pages/Details';
 import Header from './components/Header';
-
+import Footer from './components/Footer';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -41,6 +41,7 @@ export default App;
       <>
       <div><Header/></div> 
       <div><Outlet/></div>
+      <div><Footer/></div>
       </>
     )
   }
